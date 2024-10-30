@@ -1,0 +1,7 @@
+apiVersion: crd.projectcalico.org/v1
+kind: BGPPeer
+metadata:
+  name: docker-router
+spec:
+  peerIP: "172.18.0.51"
+  asNumber: 64514
