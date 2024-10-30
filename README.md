@@ -9,3 +9,6 @@ $ # Update the file /etc/frr/daemons
 
 /usr/local/bin/systemctl.py start frr
 vtysh
+
+
+kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml
